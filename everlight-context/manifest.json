@@ -1,9 +1,13 @@
 {
   "name": "EverLight OS – Context Logs",
   "description": "Canonical EverLight OS context and memory logs for RAG and agents.",
-  "schema_version": 1,
+  "schema_version": 2,
+  "id": "everlight-context-logs",
+  "updated_at": "2025-12-10T00:00:00Z",
   "base_url": "https://mcp.everlightos.com/everlight-context/logs",
   "local_root": "./logs",
+  "index_file": "index.json",
+  "include_subdirectories": false,
   "file_extension": ".md",
   "content_mode": "full-file",
   "notes": [
